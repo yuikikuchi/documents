@@ -127,8 +127,11 @@ $ export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 
 もしくは、、、
+
 システム全体の環境変数は /etc/profile.d/ で設定できる.
+
 例えば java.shファイルを作成.
+
 ```
 $ vi /etc/profile.d/java.sh
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
